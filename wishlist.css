@@ -1,0 +1,87 @@
+.wishlist, .suggestions {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+.wishlist__item, .suggestions__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wishlist__title, .suggestions__title {
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+.wishlist__btn-1, .suggestions__btn-1 {
+    width: 223px;
+    height: 56px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    cursor: pointer;
+}
+.wishlist__card, .suggestions__card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.wishlist__item__card, .suggestions__item__card {
+    min-width: 270px ;
+    height: 350px;
+    gap: 30px;
+}
+.wishlist__imge, .suggestions__imge {
+    position: relative;
+    height: 250px;
+    border-radius: 4px;
+    background-color: var(--color-box-White-Smoke);
+    overflow: hidden;
+  }
+#wishlist__bag, #suggestions__sell__image {
+    position: absolute;
+    width: 190px;
+    height: 180px;    
+    top: 26px;
+    left: 46px;
+}
+#suggestions__sell__monitor {
+    position: absolute;
+    top: 48px;
+    left: 50px;
+}
+
+.wishlist-add-to-car {
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    top: 210px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    color: var(--color-text-white);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: var(--color-black);
+    cursor: pointer;
+}
+  
+.suggestions__box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

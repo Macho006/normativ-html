@@ -1,0 +1,289 @@
+
+.checkout__nav {
+    margin-top: 80px;
+}
+
+.checkout__nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+.checkout__nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+.checkout__nav ul li a span {
+    color: rgb(128, 128, 128);
+}
+.checkout__nav ul a p {
+    color: rgb(0, 0, 0);
+}
+.breadcrumb {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.breadcrumb_list {
+    width: 470px;
+    margin-top: 80px;
+}
+
+.breadcrumb__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 4%;
+}
+.form {
+    margin-top: 48px;
+}
+.form label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(153, 153, 153);
+}
+
+.form label span {
+    color: rgb(153, 153, 153);
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+    width: 100%;
+    height: 50px;
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    border: none;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 4px;
+    outline: none;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 16px;
+}
+.checkbox-group input {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: lightgray;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .checkbox-group input[type="checkbox"]:checked {
+    background-image: url(./img/icon-checkbox.svg);
+    background-position: center;
+  }
+  
+.breadcrumb__list2 {
+    width: 527px;
+    margin-top: 190px;
+}
+  
+  .breadcrumb__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .breadcrumb__item__product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb__item img {
+    width: 48px;
+    height: 42px;
+    
+  }
+  
+  .breadcrumb__item span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 24px;
+  }
+  .summary {
+    width: 425px;
+  }
+  .summary-2 {
+    width: 425px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb__line {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid rgb(153, 153, 153);
+  }
+
+  .payment-methods {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .input__bank {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .methods_input {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .input__bank p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+  .bankcard__img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .bkash {
+    height: 38px;
+  }
+  .bankcard {
+    height: 16px;
+  }
+
+  .methods2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .coupon {   
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .methods_input div {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  .coupon input {
+    width: 300px;
+    height: 56px;
+    padding: 16px 24px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .coupon button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    width: 211px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;    
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .coupon button:hover {
+    opacity: .8;
+  }
+  
+  .place-order {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    width: 190px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .place-order:hover {
+    opacity: .8;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

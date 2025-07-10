@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner__parent">
+            <div class="banner container">
+
+                <p class="banner__text">
+                    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                    <a href="#" class="banner__link">ShopNow</a>
+                </p>
+                <div class="language__selector">
+                    <select>
+                        <option value="en">English</option>
+                        <option value="ru">Russion</option>
+                        <option value="uz">Uzbek</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="navbar container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="./index.html">
+                        <p class="logo__text">Exclusive</p>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./contact.html" class="active">Contact</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./sing-up.html">Sing Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+                <div class="search__box">
+                    <input type="search" placeholder="What are you looking for?" class="search__input">
+                    <button class="search__button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <a href="./washlist.html"><i class="fa-regular fa-heart cart__icon"></i></a>
+                <a href="./card.html"><i class="fa-solid fa-cart-shopping saved__icon"></i></a>
+                <a href="#"><i class="fa fa-user saved__icon"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="contact__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <span>/</span>
+                    <li><a class="active" href="#">Cantact</a></li>
+                </ul>
+            </div>
+            <div class="contact_section">
+                <div class="contact_left">
+                    <div class="contact_title">
+                        <div class="icon_phone">
+                            <img src="./icon/phone.svg" alt="">
+                        </div>
+                        <h2>Call To Us</h2>
+                    </div>
+                    <p class="contact_text">We are available 24/7, 7 days a week.</p>
+                    <p class="contact_tel"><a href="tel:+8801611112222">Phone: +8801611112222</a></p>
+                    <hr>
+                    <div class="contact_title">
+                        <div class="icon_phone">
+                            <img src="./icon/email.svg" alt="">
+                        </div>
+                        <h2>Call To Us</h2>
+                    </div>
+                    <p class="contact_text">Fill out our form and we will contact you within 24 hours.</p>
+                    <p class="contact_email">Emails: customer@exclusive.com</p>
+                    <p class="contact_email">Emails: support@exclusive.com</p>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form_parent">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" name="message"></textarea>
+                        </div>
+                        <div class="button-container">
+                            <button type="submit" class="contact_submit-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__column">
+                    <h3 class="footer__logo__title">Exclusive</h3>
+                    <p class="footer__subtitle">Subscribe</p>
+                    <p class="footer__text-1">Get 10% off your first order</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><img src="./img/icon-send.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="footer__parent">
+                    <div class="footer__column">
+                        <h3 class="footer__title">Support</h3>
+                        <p class="footer__text">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+                        <p class="footer__text">exclusive@gmail.com</p>
+                        <p class="footer__text">+88015-88888-9999</p>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3 class="footer__title">Account</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Login / Register</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3 class="footer__title">Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms Of Use</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__cloumn">
+                        <h3 class="footer__title">Download App</h3>
+                        <p class="footer__text footer__text-2">Save $3 with App New User Only</p>
+                        <div class="app__download">
+                            <img src="./img/Qrcode 1.svg" alt="">
+                            <div class="footer__apps">
+                                <a href="#"><a href="#"><img src="./img/googleplay.svg" alt=""></a></a>
+                                <a href="#"><a href="#"><img src="./img/appstore.svg" alt=""></a></a>
+                            </div>
+                        </div>
+                        <div class="footer_socials">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__button">
+                <p>&copy; Copyright Rimel 2022. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

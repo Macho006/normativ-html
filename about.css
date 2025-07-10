@@ -1,0 +1,189 @@
+.about__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.about__nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+.about__nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+.about__nav ul li a span {
+    color: rgb(128, 128, 128);
+}
+.about__nav ul li .active {
+    color: black;
+}
+.about_hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 276px;
+}
+.about_title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 6px;
+    text-align: justify;
+    margin-top: 180px;    
+}
+.about_text {
+    width: 525px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    margin-top: 40px;
+}
+.about_text-two {
+    width: 505px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    
+}
+.about_hero-img {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    top: 42px;
+    right: -200px;
+}
+.about_services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_shop {
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+    border: 1px solid #B2B2B2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.about_shop:hover {
+    color: #fff;
+    background-color: #DB4444;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+.about_shop div {
+    width: 78px;
+    height: 78px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #000;
+    border: 11px solid #C1C0C1;
+}
+.shop_title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;   
+    margin-top: 24px; 
+}
+.shop_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;    
+    margin-top: 12px;
+}
+.about_socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+.person_img {
+    width: 370px;
+    height: 430px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #F5F5F5;
+}
+.socials_tom {
+    width: 236px;
+    height: 391px;   
+}
+.socials_emma {
+    width: 294px;
+    height: 397px;    
+}
+.socials_will {
+    width: 326px;
+    height: 392px;    
+}
+.about_socilas-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;    
+    padding-top: 32px;
+}
+.about_socialas-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 8px;
+}
+.socialas_icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 16px;
+}
+.about_socials-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+.about_dots {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #B2B2B2;  
+    cursor: pointer;  
+}
+.dotsactive {
+    width: 16px;
+    height: 16px;
+}
+.about_dots-active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #DB4444; 
+}

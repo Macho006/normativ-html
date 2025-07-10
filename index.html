@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="banner__parent">
+      <div class="banner container">
+        <p class="banner__text">
+          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          <a href="#" class="banner__link">ShopNow</a>
+        </p>
+        <div class="language__selector">
+          <select>
+            <option value="en">English</option>
+            <option value="ru">Russion</option>
+            <option value="uz">Uzbek</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="navbar container">
+      <div class="nav">
+        <div class="logo">
+          <a href="./index.html"><p class="logo__text">Exclusive</p></a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./sing-up.html">Sing Up</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search">
+        <div class="search__box">
+          <input type="search" placeholder="What are you looking for?" class="search__input">
+          <button class="search__button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <a href="./washlist.html"><i class="fa-regular fa-heart cart__icon"></i></a>
+        <a href="./card.html"><i class="fa-solid fa-cart-shopping saved__icon"></i></a>
+        <div class="dropdown_wrapper">
+          <input type="checkbox" id="dropdown_toggle" class="dropdown_checkbox">
+          <label for="dropdown_toggle" class="user_icon">
+            <i class="fa fa-user"></i>
+          </label>
+          <label for="dropdown_toggle" class="overlay"></label>
+          <div class="modal">
+            <ul class="modal_list">
+              <li class="modal_item">
+                <div class="modal_icon_box">
+                  <i class="modal_icon fa fa-user-circle"></i>
+                  <a href="#" class="modal_link">Manage My Account</a>
+                </div>
+              </li>
+              <li class="modal_item">
+                <div class="modal_icon_box">
+                  <i class="modal_icon fa fa-shopping-bag"></i>
+                  <a href="#" class="modal_link">My Order</a>
+                </div>
+              </li>
+              <li class="modal_item">
+                <div class="modal_icon_box">
+                  <i class="modal_icon fa fa-times-circle"></i>
+                  <a href="#" class="modal_link">My Cancellations</a>
+                </div>
+              </li>
+              <li class="modal_item">
+                <div class="modal_icon_box">
+                  <i class="modal_icon fa fa-star"></i>
+                  <a href="#" class="modal_link">My Reviews</a>
+                </div>
+              </li>
+              <li class="modal_item">
+                <div class="modal_icon_box">
+                  <i class="modal_icon fa fa-sign-out-alt"></i>
+                  <a href="#" class="modal_link">Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container header">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">Woman’s Fashion <samp class="arrow__icon"><img src="./img/Vector.svg" alt=""></samp></a></li>
+          <li><a href="#">Men’s Fashion <samp class="arrow__icon"><img src="./img/Vector.svg" alt=""></samp></a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Home & Lifestyle</a></li>
+          <li><a href="#">Medicine</a></li>
+          <li><a href="#">Sports & Outdoor</a></li>
+          <li><a href="#">Baby’s & Toys</a></li>
+          <li><a href="#">Groceries & Pets</a></li>
+          <li><a href="#">Health & Beauty</a></li>
+        </ul>
+      </div>
+      <div class="slidershow">
+        <div class="slider__box">
+          <span class="series">
+            <img src="./img/1200px-Apple_gray_logo 1.svg" id="apple__logo" alt="">
+            <p>iPhone 14 Series</p>
+          </span>
+          <p class="slider__text">Up to 10% off Voucher</p>
+          <a href="#" class="slider__button">Shop Now</a>
+          <img src="./img/Vector (1).svg" id="hero__icon" alt="">
+        </div>
+        <div class="slider__imge">
+          <img src="./img/hero_endframe__cvklg0xk3w6e_large 2.png" alt="">
+        </div>
+        <div class="slider__indicators">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div> 
+  </header>
+
+  <main>
+   <section class="container">
+    <div class="sales">
+      <div class="sales__top">
+        <div class="sales__title">
+          <div class="red__box"></div>
+          <p>Today's</p>
+        </div>
+        <h2>Flash Slaes</h2>
+      </div>
+      <div class="sales__timer">
+        <div class="sales__timer-item">
+          <span class="label">Days</span>
+          <span class="value">03</span>
+        </div>
+        <span class="dots">:</span>
+        <div class="sales__timer-item">
+          <span class="label">Houre</span>
+          <span class="value">23</span>
+        </div>
+        <span class="dots">:</span>
+        <div class="sales__timer-item">
+          <span class="label">Minutes</span>
+          <span class="value">19</span>
+        </div>
+        <span class="dots">:</span>
+        <div class="sales__timer-item">
+          <span class="label">Seconds</span>
+          <span class="value">56</span>
+        </div>
+      </div>
+      <div class="navigation__button">
+        <button class="prev__btn"><img src="./img/Vector (2).svg" alt=""></button>
+        <button class="next__btn"><img src="./img/Vector (3).svg" alt=""></button>
+      </div>
+    </div>
+   </section>
+
+   <section>
+    <div class="product__wrapper">
+      <div class="products">
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-40%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="gamepad" src="./img/ps.svg" alt="">
+          </div>
+          <p class="productname">HAVIT HV-G92 Gamepad</p>
+          <p class="product__price">
+            <span class="current__price">$120</span>
+            <span class="orginal__price">$160</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(88)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-35%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="kryboard" src="./img/keyboard.svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">AK-900 Wired Keyboard</p>
+          <p class="product__price">
+            <span class="current__price">$960</span>
+            <span class="orginal__price">$1160</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(88)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-30%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="monitor" src="./img/tv.svg" alt="">
+          </div>
+          <p class="productname">IPS LCD Gaming Monitor</p>
+          <p class="product__price">
+            <span class="current__price">$370</span>
+            <span class="orginal__price">$400</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(88)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-25%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="chair" src="./img/chair.svg" alt="">
+          </div>
+          <p class="productname">S-Series Comfort Chair </p>
+          <p class="product__price">
+            <span class="current__price">$375</span>
+            <span class="orginal__price">$400</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(99)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-25%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="chair" src="./img/chair.svg" alt="">
+          </div>
+          <p class="productname">S-Series Comfort Chair </p>
+          <p class="product__price">
+            <span class="current__price">$375</span>
+            <span class="orginal__price">$400</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(99)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-25%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="chair" src="./img/chair.svg" alt="">
+          </div>
+          <p class="productname">S-Series Comfort Chair </p>
+          <p class="product__price">
+            <span class="current__price">$375</span>
+            <span class="orginal__price">$400</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(99)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount">-25%</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="chair" src="./img/chair.svg" alt="">
+          </div>
+          <p class="productname">S-Series Comfort Chair </p>
+          <p class="product__price">
+            <span class="current__price">$375</span>
+            <span class="orginal__price">$400</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(99)</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product__button">
+      <button>View All Products</button>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="categores">
+      <div class="category__parent-box">
+        <div class="category__box"></div>
+        <span class="category__badge">Categories</span>
+      </div>
+      <div class="category__top">
+        <span class="category__title">Browse By Category</span>
+        <div class="navigation__button-1">
+          <button class="prev__btn"><img src="./img/Vector (2).svg" alt=""></button>
+          <button class="next__btn"><img src="./img/Vector (3).svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="category__slider">
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_868)">
+              <path d="M38.9375 6.125H17.0625C15.5523 6.125 14.3281 7.34922 14.3281 8.85938V47.1406C14.3281 48.6508 15.5523 49.875 17.0625 49.875H38.9375C40.4477 49.875 41.6719 48.6508 41.6719 47.1406V8.85938C41.6719 7.34922 40.4477 6.125 38.9375 6.125Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M25.6667 7H31.1354" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M28 44.0052V44.0305" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="15.1667" y1="39.8334" x2="40.8333" y2="39.8334" stroke="black" stroke-width="2"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_868">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">Phones</p>
+        </div>
+
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_613)">
+              <path d="M46.6667 9.33337H9.33333C8.04467 9.33337 7 10.378 7 11.6667V35C7 36.2887 8.04467 37.3334 9.33333 37.3334H46.6667C47.9553 37.3334 49 36.2887 49 35V11.6667C49 10.378 47.9553 9.33337 46.6667 9.33337Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16.3333 46.6666H39.6667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 37.3334V46.6667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35 37.3334V46.6667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 32H48" stroke="black" stroke-width="2" stroke-linecap="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_613">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">Computers</p>
+        </div>
+
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_629)">
+              <path d="M35 14H21C17.134 14 14 17.134 14 21V35C14 38.866 17.134 42 21 42H35C38.866 42 42 38.866 42 35V21C42 17.134 38.866 14 35 14Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 42V49H35V42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 14V7H35V14" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="24" y1="23" x2="24" y2="34" stroke="black" stroke-width="2" stroke-linecap="round"/>
+              <line x1="28" y1="28" x2="28" y2="34" stroke="black" stroke-width="2" stroke-linecap="round"/>
+              <line x1="32" y1="26" x2="32" y2="34" stroke="black" stroke-width="2" stroke-linecap="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_629">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">SmartWatch</p>
+        </div>
+
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_6)">
+              <path d="M11.6667 16.3334H14C15.2377 16.3334 16.4247 15.8417 17.2998 14.9665C18.175 14.0914 18.6667 12.9044 18.6667 11.6667C18.6667 11.0479 18.9125 10.4544 19.3501 10.0168C19.7877 9.57921 20.3812 9.33337 21 9.33337H35C35.6188 9.33337 36.2123 9.57921 36.6499 10.0168C37.0875 10.4544 37.3333 11.0479 37.3333 11.6667C37.3333 12.9044 37.825 14.0914 38.7002 14.9665C39.5753 15.8417 40.7623 16.3334 42 16.3334H44.3333C45.571 16.3334 46.758 16.825 47.6332 17.7002C48.5083 18.5754 49 19.7624 49 21V42C49 43.2377 48.5083 44.4247 47.6332 45.2999C46.758 46.175 45.571 46.6667 44.3333 46.6667H11.6667C10.429 46.6667 9.242 46.175 8.36683 45.2999C7.49167 44.4247 7 43.2377 7 42V21C7 19.7624 7.49167 18.5754 8.36683 17.7002C9.242 16.825 10.429 16.3334 11.6667 16.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M28 37.3334C31.866 37.3334 35 34.1994 35 30.3334C35 26.4674 31.866 23.3334 28 23.3334C24.134 23.3334 21 26.4674 21 30.3334C21 34.1994 24.134 37.3334 28 37.3334Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_6">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">Camera</p>
+        </div>
+
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_644)">
+              <path d="M16.3333 30.3334H14C11.4227 30.3334 9.33331 32.4227 9.33331 35V42C9.33331 44.5774 11.4227 46.6667 14 46.6667H16.3333C18.9106 46.6667 21 44.5774 21 42V35C21 32.4227 18.9106 30.3334 16.3333 30.3334Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M42 30.3334H39.6667C37.0893 30.3334 35 32.4227 35 35V42C35 44.5774 37.0893 46.6667 39.6667 46.6667H42C44.5773 46.6667 46.6667 44.5774 46.6667 42V35C46.6667 32.4227 44.5773 30.3334 42 30.3334Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.33331 35V28C9.33331 23.0493 11.3 18.3014 14.8007 14.8007C18.3013 11.3 23.0493 9.33337 28 9.33337C32.9507 9.33337 37.6986 11.3 41.1993 14.8007C44.7 18.3014 46.6666 23.0493 46.6666 28V35" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_644">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">HeadPhones</p>
+        </div>
+
+        <div class="category__item">
+          <div class="category__icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_11443_809)">
+              <path d="M46.6666 14H9.33329C6.75596 14 4.66663 16.0893 4.66663 18.6667V37.3333C4.66663 39.9107 6.75596 42 9.33329 42H46.6666C49.244 42 51.3333 39.9107 51.3333 37.3333V18.6667C51.3333 16.0893 49.244 14 46.6666 14Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 28H23.3333M18.6667 23.3334V32.6667" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35 25.6666V25.6908" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M42 30.3333V30.3574" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_11443_809">
+              <rect width="56" height="56" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>              
+          </div>
+          <p class="category__name">Gaming</p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="best">
+      <div class="best__parent-box">
+        <div class="best__box"></div>
+        <div class="best__badge">This Month</div>
+      </div>
+      <div class="best__top">
+        <div class="best__title">Best Selling Products</div>
+        <button class="best__btn">View All</button>
+      </div>
+
+      <div class="card__container">
+        <div class="card__item">
+          <div class="card__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="coat" src="./img/Frame 605.svg" alt="">
+          </div>
+          <p class="productname">The north coat</p>
+          <p class="product__price">
+            <span class="current__price">$260</span>
+            <span class="orginal__price">$360</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(65)</span>
+          </p>
+        </div>
+
+        <div class="card__item">
+          <div class="card__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="coat" src="./img/Frame 606.svg" alt="">
+          </div>
+          <p class="productname">Gucci duffle bag</p>
+          <p class="product__price">
+            <span class="current__price">$960</span>
+            <span class="orginal__price">$1160</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(65)</span>
+          </p>
+        </div>
+
+        <div class="card__item">
+          <div class="card__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="coat" src="./img/Frame 610.svg" alt="">
+          </div>
+          <p class="productname">RGB liquid CPU Cooler</p>
+          <p class="product__price">
+            <span class="current__price">$160</span>
+            <span class="orginal__price">$170</span>
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(65)</span>
+          </p>
+        </div>
+
+        <div class="card__item">
+          <div class="card__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="coat" src="./img/Frame 612.svg" alt="">
+          </div>
+          <p class="productname">Small BookSelf</p>
+          <p class="product__price">
+            <span class="current__price">$360</span>
+            
+          </p>
+          <p class="product__rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(65)</span>
+          </p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="offer">
+      <div class="offer__left">
+        <p class="offer__label">Categories</p>
+        <p class="offer__title">Enhance Your <br> Music Experience</p>
+
+        <div class="offer__timer">
+          <div class="offer__timer__item">
+            <input type="text" value="05" readonly>
+            <label>Hours</label>
+          </div>
+          <div class="offer__timer__item">
+            <input type="text" value="23" readonly>
+            <label>Days</label>
+          </div>
+          <div class="offer__timer__item">
+            <input type="text" value="59" readonly>
+            <label>Minutes</label>
+          </div>
+          <div class="offer__timer__item">
+            <input type="text" value="35" readonly>
+            <label>Seconds</label>
+          </div>
+        </div>
+        <button class="offer__button">Buy Now!</button>
+      </div>
+      <div class="offer__right">
+        <img class="offer__img" src="./img/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="">
+      </div>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="our__products1">
+      <div class="category__parent-box">
+        <div class="category__box"></div>
+        <span class="category__badge">Our Products</span>
+      </div>
+      <div class="category__top">
+        <span class="category__title">Explore Our Products</span>
+        <div class="navigation__button-1">
+          <button class="prev__btn"><img src="./img/Vector (2).svg" alt=""></button>
+          <button class="next__btn"><img src="./img/Vector (3).svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="dog__food" src="./img/Frame 604.svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">Breed Dry Dog Food</p>
+          <p class="product__rating">
+            <span class="current__price">$100</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(35)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="dslr__camera" src="./img/Frame 604 (1).svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">CANON EOS DSLR Camera</p>
+          <p class="product__rating">
+            <span class="current__price">$360</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(95)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="laptop" src="./img/Frame 604 (2).svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">ASUS FHD Gaming Laptop</p>
+          <p class="product__rating">
+            <span class="current__price">$700</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(325)</span>
+          </p>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="curology" src="./img/curology-j7pKVQrTUsM-unsplash 1.svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">Curology Product Set </p>
+          <p class="product__rating">
+            <span class="current__price">$500</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(145)</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="products products-2">
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount our__discount">New</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="kids__car" src="./img/Frame 608.svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">Kids Electric Car</p>
+          <p class="product__rating">
+            <span class="current__price">$960</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(65)</span>
+          </p>
+          <div class="color-picker">
+            <input id="radio1" type="radio" class="radio_input"  name="color" value="reds">
+            <label for="radio1" class="color-option color-option-1" ></label>
+            <input id="radio2" type="radio" class="radio_input"  name="color" value="reds">
+            <label for="radio2" class="color-option" ></label>
+          </div>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="cleats" src="./img/Frame 608 (1).svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">Jr. Zoom Soccer Cleats</p>
+          <p class="product__rating">
+            <span class="current__price">$1160</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(35)</span>
+          </p>
+          <div class="color-picker">
+            <input id="radio3" type="radio" class="radio_input"  name="color2" value="reds">
+            <label for="radio3" class="color-option color-option-2" ></label>
+            <input id="radio4" type="radio" class="radio_input"  name="color2" value="reds">
+            <label for="radio4" class="color-option" ></label>
+          </div>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <div class="product__discount our__discount">New</div>
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="gamepad" src="./img/GP11_PRD3 1.svg" alt="">
+            <a href="./gamepad.html"><button class="add-to-car-btn">Add To Cart</button></a>
+          </div>
+          <p class="productname">GP11 Shooter USB Gamepad</p>
+          <p class="product__rating">
+            <span class="current__price">$660</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(55)</span>
+          </p>
+          <div class="color-picker">
+            <input id="radio5" type="radio" class="radio_input"  name="color3" value="reds">
+            <label for="radio5" class="color-option color-option-3" ></label>
+            <input id="radio6" type="radio" class="radio_input"  name="color3" value="reds">
+            <label for="radio6" class="color-option" ></label>
+          </div>
+        </div>
+
+        <div class="product__item">
+          <div class="product__imge">
+            <button class="wishlist__btn"><img src="./img/btn-heart.svg" alt=""></button>
+            <button class="view__btn"><img src="./img/btn-eye.svg" alt=""></button>
+            <img id="jacket" src="./img/jacket 1.svg" alt="">
+            <button class="add-to-car-btn">Add To Cart</button>
+          </div>
+          <p class="productname">Quilted Satin Jacket</p>
+          <p class="product__rating">
+            <span class="current__price">$660</span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="rating__count">(55)</span>
+          </p>
+          <div class="color-picker">
+            <input id="radio7" type="radio" class="radio_input"  name="color4" value="reds">
+            <label for="radio7" class="color-option color-option-3" ></label>
+            <input id="radio8" type="radio" class="radio_input"  name="color4" value="reds">
+            <label for="radio8" class="color-option" ></label>
+          </div>
+        </div>
+      </div>
+      <div class="product__button">
+        <button>View All Products</button>
+      </div>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="new__arrival__section">
+      <div class="category__parent-box">
+        <div class="category__box"></div>
+        <span class="category__badge">Featured</span>
+      </div>
+      <div class="category__top">
+        <span class="category__title">New Arrival</span>
+      </div>
+
+      <div class="new__arrival">
+        <div class="arrival__box">
+          <img class="ps5" src="./img/ps5.png" alt="">
+          <h4 class="arrival__title">PlayStation 5</h4>
+          <p class="arrival__text">Black and White version of the PS5 <br> coming out on sale.</p>
+          <a href="#" class="arrival__link">Shop Now</a>
+        </div>
+        <div class="arrival__box-2">
+          <div class="in__box">
+            <div class="women__card">
+              <h4 class="women__title">Women’s Collections</h4>
+              <p class="women__text">Featured woman collections that <br> give you another vibe.</p>
+              <a href="#" class="women__link">Shop Now</a>
+            </div>
+            <img class="women__image" src="./img/women.svg" alt="">
+          </div>
+          <div class="parent__in__box">
+            <div class="in__box-2">
+              <img class="speaker__image" src="./img/speakers.svg" alt="">
+              <h4 class="speaker__title">Speakers</h4>
+              <p class="speaker__text">Amazon wireless speakers</p>
+              <a href="#" class="speaker__link">Shop Now</a>
+            </div>
+            <div class="in__box-3">
+              <img class="gucci__image" src="./img/gucci.svg" alt="">
+              <h4 class="gucci__title">Perfume</h4>
+              <p class="gucci__text">GUCCI INTENSE OUD EDP</p>
+              <a href="#" class="gucci__limk">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="container">
+    <div class="services">
+      <div class="services__item">
+        <div class="services__box">
+          <img src="./img/icon-delivery.svg" alt="">
+        </div>
+        <h3 class="services__item__title">FREE AND FAST DELIVERY</h3>
+        <p class="services__item__text">Free delivery for all orders over $140</p>
+      </div>
+      <div class="services__item">
+        <div class="services__box">
+          <img src="./img/Icon-Customer service.svg" alt="">
+        </div>
+        <h3 class="services__item__title">24/7 CUSTOMER SERVICE</h3>
+        <p class="services__item__text">Friendly 24/7 customer support</p>
+      </div>
+      <div class="services__item">
+        <div class="services__box">
+          <img src="./img/Icon-secure.svg" alt="">
+        </div>
+        <h3 class="services__item__title">MONEY BACK GUARANTEE</h3>
+        <p class="services__item__text">We reurn money within 30 days</p>
+      </div>
+    </div>
+    <button id="up__button"><img src="./img/icons_arrow-up.svg" alt=""></button>
+   </section>
+  </main>
+
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container container">
+        <div class="footer__column">
+          <h3 class="footer__logo__title">Exclusive</h3>
+          <p class="footer__subtitle">Subscribe</p>
+          <p class="footer__text-1">Get 10% off your first order</p>
+          <form class="footer__form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit"><img src="./img/icon-send.svg" alt=""></button>
+          </form>
+        </div>
+        <div class="footer__parent">
+          <div class="footer__column">
+            <h3 class="footer__title">Support</h3>
+            <p class="footer__text">111 Bijoy sarani, Dhaka, <br>  DH 1515, Bangladesh.</p>
+            <p class="footer__text">exclusive@gmail.com</p>
+            <p class="footer__text">+88015-88888-9999</p>
+          </div>
+
+          <div class="footer__column">
+            <h3 class="footer__title">Account</h3>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Login / Register</a></li>
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h3 class="footer__title">Quick Link</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms Of Use</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__cloumn">
+            <h3 class="footer__title">Download App</h3>
+            <p class="footer__text footer__text-2">Save $3 with App New User Only</p>
+            <div class="app__download">
+              <img src="./img/Qrcode 1.svg" alt="">
+              <div class="footer__apps">
+                <a href="#"><a href="#"><img src="./img/googleplay.svg" alt=""></a></a>
+                <a href="#"><a href="#"><img src="./img/appstore.svg" alt=""></a></a>
+              </div>
+            </div>
+            <div class="footer_socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__button">
+        <p>&copy; Copyright Rimel 2022. All right reserved</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

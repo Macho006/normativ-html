@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner__parent">
+            <div class="banner container">
+
+                <p class="banner__text">
+                    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                    <a href="#" class="banner__link">ShopNow</a>
+                </p>
+                <div class="language__selector">
+                    <select>
+                        <option value="en">English</option>
+                        <option value="ru">Russion</option>
+                        <option value="uz">Uzbek</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="navbar container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="./index.html">
+                        <p class="logo__text">Exclusive</p>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./sing-up.html">Sing Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+                <div class="search__box">
+                    <input type="search" placeholder="What are you looking for?" class="search__input">
+                    <button class="search__button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="container">
+            <div class="cartpage">
+                <div class="cart__title">
+                    <a href="#">Home</a>
+                    <p class="slesh">/</p>
+                    <a href="#"><span>Cart</span></a>
+                </div>
+                <div class="cartpage__item">
+                    <div class="cartpage__box">
+                        <p class="cart__text">Product</p>
+                        <p class="cart__text">Price</p>
+                        <p class="cart__text">Quantity</p>
+                        <p class="cart__text">Subtotal</p>
+                    </div>
+
+                    <div class="cartpage__box2">
+                        <div class="img_box">
+                            <span class="close-icon">&times;</span>
+                            <img class="monitor__small" src="./img/tv.svg"
+                                    alt="">
+                            <p class="cart__text monitor__text">LCD Monitor</p>
+                        </div>
+                        <div class="info_box">
+                            <p class="cart__text cart__price">$650</p>
+                            <div class="cart__input">
+                                <p>01</p>
+                                <div class="cart__arrow">
+                                    <button>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="cart__text">$650</p>
+                        </div>
+                    </div>
+
+                    <div class="cartpage__box2">
+                        <div class="img_box">
+                            <span class="close-icon">&times;</span>
+                            <img class="monitor__small" src="./img/ps.svg"
+                                    alt="">
+                            <p class="cart__text monitor__text">LCD Monitor</p>
+                        </div>
+                        <div class="info_box">
+                            <p class="cart__text cart__price">$550</p>
+                            <div class="cart__input">
+                                <p>02</p>
+                                <div class="cart__arrow">
+                                    <button>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </button>
+                                    <button>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="cart__text">$1100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart__btn">
+                    <button>Return To Shop</button>
+                    <button>Update Cart</button>
+                </div>
+            </div>
+
+            <div class="cart__total">
+                <div class="coupon">
+                    <input type="search" name="" id="" placeholder="Coupon Code">
+                    <button class="coupon__btn">Apply Coupon</button>
+                </div>
+                    <div class="total__box">
+                        <h2 class="total__title">Cart Total</h2>
+                        <div class="total__line line-item">
+                          <span>Subtotal:</span>
+                          <span>$1750</span>
+                        </div>
+                        <hr>
+                        <div class="line-item">
+                          <span>Shipping:</span>
+                          <span>Free</span>
+                        </div>
+                        <hr>
+                        <div class="line-item">
+                          <span>Total:</span>
+                          <span>$1750</span>
+                        </div>
+                        <div class="total__btn">
+                            <a href="./checkout.html" class="checkout-btn">Procees to checkout</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__column">
+                    <h3 class="footer__logo__title">Exclusive</h3>
+                    <p class="footer__subtitle">Subscribe</p>
+                    <p class="footer__text-1">Get 10% off your first order</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><img src="./img/icon-send.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="footer__parent">
+                    <div class="footer__column">
+                        <h3 class="footer__title">Support</h3>
+                        <p class="footer__text">111 Bijoy sarani, Dhaka, <br> DH 1515, Bangladesh.</p>
+                        <p class="footer__text">exclusive@gmail.com</p>
+                        <p class="footer__text">+88015-88888-9999</p>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3 class="footer__title">Account</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Login / Register</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3 class="footer__title">Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms Of Use</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__cloumn">
+                        <h3 class="footer__title">Download App</h3>
+                        <p class="footer__text footer__text-2">Save $3 with App New User Only</p>
+                        <div class="app__download">
+                            <img src="./img/Qrcode 1.svg" alt="">
+                            <div class="footer__apps">
+                                <a href="#"><a href="#"><img src="./img/googleplay.svg" alt=""></a></a>
+                                <a href="#"><a href="#"><img src="./img/appstore.svg" alt=""></a></a>
+                            </div>
+                        </div>
+                        <div class="footer_socials">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__button">
+                <p>&copy; Copyright Rimel 2022. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
